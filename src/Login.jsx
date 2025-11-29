@@ -24,7 +24,7 @@ const Login = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        background: "linear-gradient(135deg, #f6d365, #fda085)",
+        background: "linear-gradient(135deg, #53819bff, #5a7a7dff)",
         padding: "20px",
         boxSizing: "border-box",
       }}

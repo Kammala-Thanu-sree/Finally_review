@@ -11,8 +11,9 @@ export default function Home() {
         flexDirection: "column",
         minHeight: "100vh", // full viewport height
         width: "100vw",     // full viewport width
-        margin: 0,
-        padding: 0,
+        margin: 1,
+        
+        padding: 1,
         background: "linear-gradient(135deg, #89f7fe, #66a6ff)",
       }}
     >

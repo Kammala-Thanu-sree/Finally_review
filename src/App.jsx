@@ -11,12 +11,13 @@ import Services from './Services'
 import Contact from './Contact'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import Dashboard from './Dashboard'
+
 import Appointments from './Appointments'
 import Wellness from './Wellness'
 import Records from './Records'
 import Login from './Login'
 import Admindas from './Admindas'
+import Dashboardlogin from './Dashboardlogin'
 
 
 
@@ -36,7 +37,7 @@ export default function App() {
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/dashboardlogin" element={<Dashboardlogin />} />
        <Route path="/records" element={<Records />} />
         <Route path="/appointments" element={<Appointments />} />
         <Route path="/wellness" element={<Wellness />} />
@@ -49,5 +50,3 @@ export default function App() {
     </div>
   );
 }
-
-

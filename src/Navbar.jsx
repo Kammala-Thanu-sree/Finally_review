@@ -35,6 +35,7 @@ const linkStyle = (path) => ({
         <Link to="/services" style={linkStyle("/services")}>Services</Link>
         <Link to="/contact" style={linkStyle("/contact")}>Contact</Link>
         <Link to="/student" style={linkStyle("/student")}>Student</Link>
+        
       
       </div>
     </nav>
