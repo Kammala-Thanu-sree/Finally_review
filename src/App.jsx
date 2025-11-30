@@ -18,9 +18,11 @@ import Records from './Records'
 import Login from './Login'
 import Admindas from './Admindas'
 import Dashboardlogin from './Dashboardlogin'
-
-
-
+import Viewstudentadmin from './Viewstudentadmin'
+import Doctorrecords from './Doctorrecords'
+import Doctorappointment from './Doctorappointment'
+import Assigndoctor from './Assigndoctor'
+import Addrecord from './Addrecord'
 
 
 
@@ -43,7 +45,11 @@ export default function App() {
         <Route path="/wellness" element={<Wellness />} />
         <Route path="/login" element={<Login />} />
         <Route path="/admindas" element={<Admindas />} />
-      
+        <Route path="/viewstudentadmin" element={<Viewstudentadmin />} />
+        <Route path="/doctorrecords" element={<Doctorrecords />} />
+        <Route path="/doctorappointment" element={<Doctorappointment />} />
+        <Route path="/assign-doctor" element={<Assigndoctor />} />
+        <Route path="/add-record" element={<Addrecord />} />
       
     </Routes>
     <Footer />
