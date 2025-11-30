@@ -1,4 +1,4 @@
-import React from 'react'
+vimport React from 'react'
 
 const Records = () => {
  const records = [
